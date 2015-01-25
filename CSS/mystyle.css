@@ -1,0 +1,292 @@
+body, section, header, form, ul, li, img, h1, h2, h3, h4, i, span {
+  margin: 0;
+  border: 0;
+  padding: 0; }
+
+body {
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding-bottom: 500px; }
+
+section.hero {
+  max-width: 100em;
+  margin: 0 auto;
+  padding-bottom: 6em;
+  border-bottom: 1px solid #ccc;
+  background: #fefefa;
+  color: white;
+  max-width: 100em;
+  margin: 0 auto;
+  background: url("../img/1.jpg");
+  background-size: cover;
+  padding-bottom: 4em; }
+  section.hero header img {
+    float: left;
+    width: 120px;
+    height: 50px;
+    margin-left: 1em;
+    margin-top: 1em; }
+  section.hero header ul {
+    float: right;
+    margin-right: 1em;
+    margin-top: 1em; }
+    section.hero header ul li {
+      list-style: none;
+      float: left;
+      margin-left: 2em;
+      font-size: 1.4em;
+      padding-bottom: .2em;
+      border-radius: 4px; }
+      section.hero header ul li:last-child {
+        border: 1px solid white; }
+  section.hero header h1 {
+    clear: both;
+    font-size: 4em;
+    text-align: center;
+    padding-top: 2em;
+    font-family: cursive;
+    margin-bottom: .5em; }
+  section.hero header h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: .5em; }
+  section.hero form {
+    padding: 2em 0 4em 0; }
+    section.hero form input {
+      padding: 1em;
+      border: 0;
+      width: 18em;
+      border-radius: 2px 0 0 2px;
+      background: rgba(200, 200, 200, 0.6);
+      color: black;
+      outline: none; }
+    section.hero form button {
+      color: white;
+      padding: 1em;
+      border: 0;
+      width: 6em;
+      border-radius: 0 2px 2px 0;
+      background-color: lightgreen; }
+
+section.numbers {
+  width: 80%;
+  max-width: 80em;
+  margin: 0 auto;
+  position: relative;
+  top: -50px;
+  background: white; }
+  section.numbers ul {
+    margin: 0 auto;
+    position: relative;
+    top: -3em;
+    background: #ffffff;
+    font-family: cursive; }
+    section.numbers ul:after {
+      clear: both;
+      display: table;
+      content: ''; }
+    section.numbers ul li {
+      display: block;
+      float: left;
+      width: 25%;
+      padding: 20px 0;
+      line-height: 2em;
+      border: 1px solid #eee;
+      border-right: none;
+      box-sizing: border-box; }
+      section.numbers ul li:last-child {
+        border-right: 1px solid #eee; }
+      section.numbers ul li h3 {
+        font-weight: bold;
+        font-size: 1.6em; }
+
+section.how-it-works {
+  max-width: 100em;
+  margin: 0 auto;
+  padding-bottom: 6em;
+  border-bottom: 1px solid #ccc;
+  background: #fefefa;
+  padding-top: 8em;
+  margin-top: -9em; }
+  section.how-it-works h2 {
+    position: relative;
+    font-weight: bold;
+    font-size: 1.3em; }
+    section.how-it-works h2:after {
+      content: " ";
+      background: #ccc;
+      width: 3em;
+      margin-left: -1.5em;
+      height: .15em;
+      display: block;
+      position: absolute;
+      bottom: -4px;
+      left: 50%; }
+  section.how-it-works ol {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2em; }
+    section.how-it-works ol li {
+      width: 33.3%;
+      float: left;
+      position: relative; }
+      section.how-it-works ol li:after {
+        content: "";
+        background: #ccc;
+        width: calc(100% - 2.8em);
+        margin-left: 1.4em;
+        height: 1px;
+        display: block;
+        position: absolute;
+        top: 1.4em;
+        left: 50%; }
+      section.how-it-works ol li:last-child:after {
+        display: none; }
+      section.how-it-works ol li span.number {
+        display: block;
+        font-size: 1.4em;
+        line-height: 2;
+        font-weight: bold;
+        color: #ccc;
+        border: 1px solid #ccc;
+        border-radius: 2em;
+        width: 2em;
+        height: 2em;
+        margin: 0 auto; }
+      section.how-it-works ol li i.icon {
+        display: block;
+        margin: .2em;
+        margin-top: .5em;
+        font-style: normal;
+        font-size: 5em;
+        content: " "; }
+        section.how-it-works ol li i.icon.icon-contact {
+          color: orange; }
+        section.how-it-works ol li i.icon.icon-pencil {
+          color: purple; }
+        section.how-it-works ol li i.icon.icon-people {
+          color: blue; }
+      section.how-it-works ol li span.label {
+        font-weight: bold;
+        font-size: 1.3em;
+        color: #666; }
+      section.how-it-works ol li p {
+        width: 60%;
+        margin: 0 auto;
+        margin-top: .5em;
+        color: #aaa; }
+
+section.why-choose-us {
+  max-width: 100em;
+  margin: 0 auto;
+  padding-bottom: 6em;
+  border-bottom: 1px solid #ccc;
+  background: #fefefa;
+  padding-top: 5em; }
+  section.why-choose-us h2 {
+    position: relative;
+    font-weight: bold;
+    font-size: 1.3em; }
+    section.why-choose-us h2:after {
+      content: " ";
+      background: #ccc;
+      width: 3em;
+      margin-left: -1.5em;
+      height: .15em;
+      display: block;
+      position: absolute;
+      bottom: -4px;
+      left: 50%; }
+  section.why-choose-us ul {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2em; }
+    section.why-choose-us ul li {
+      display: block;
+      width: 40%;
+      float: left;
+      margin-left: 10%;
+      margin-top: 4em;
+      text-align: left; }
+      section.why-choose-us ul li i {
+        display: block;
+        float: left;
+        font-size: 4em;
+        width: 20%;
+        height: 2em; }
+      section.why-choose-us ul li div {
+        float: left;
+        width: 80%; }
+        section.why-choose-us ul li div h3 {
+          font-weight: bold;
+          font-size: 1.6em; }
+        section.why-choose-us ul li div p {
+          font-size: 1.2em;
+          margin-top: .5em;
+          color: #999;
+          line-height: 1.4em; }
+
+section.what-people-say {
+  max-width: 100em;
+  margin: 0 auto;
+  padding-bottom: 6em;
+  border-bottom: 1px solid #ccc;
+  background: #fefefa;
+  padding-top: 4em;
+  border-bottom: none; }
+  section.what-people-say div.categories {
+    width: 80%;
+    margin: 0 auto; }
+    section.what-people-say div.categories span {
+      border: 1px solid gray;
+      display: inline-block;
+      font-size: 1.2em;
+      padding: .6em 1.2em;
+      margin: 0;
+      margin-left: -4px;
+      margin-left: -0.3em; }
+      section.what-people-say div.categories span.current {
+        background: gray;
+        color: white; }
+  section.what-people-say span.qoute {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    font-size: 4em;
+    color: #ddd;
+    margin: .5em auto 0; }
+  section.what-people-say p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.3em;
+    color: #666; }
+  section.what-people-say div.people {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2em; }
+    section.what-people-say div.people h3 {
+      font-size: 1.2em; }
+    section.what-people-say div.people h4 {
+      margin-top: .3em;
+      font-size: 1.2em;
+      color: #999; }
+  section.what-people-say div.people-list {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3.5em; }
+    section.what-people-say div.people-list img {
+      width: 6em;
+      height: 6em;
+      border-radius: 6em;
+      display: inline-block;
+      margin: 0 .5em;
+      background: white;
+      opacity: .3; }
+      section.what-people-say div.people-list img.current {
+        box-sizing: border-box;
+        padding: 2px;
+        border: 1px solid #ddd;
+        opacity: 1; }
+
+/*# sourceMappingURL=mystyle.css.map */
